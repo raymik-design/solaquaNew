@@ -1,0 +1,19 @@
+{
+  "name": "solaqua",
+  "version": "1.0.0",
+  "description": "Renewable Energy - Home Heating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymik-design/solaqua.git"
+  },
+  "author": "Raymik.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raymik-design/solaqua/issues"
+  },
+  "homepage": "https://github.com/raymik-design/solaqua#readme"
+}
