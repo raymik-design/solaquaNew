@@ -3,151 +3,334 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="dir/css/main.css" />
     <link rel="shortcut icon" href="dir/img/favicon.png" type="image/png" />
 
     <title>Solaqua - Renewable Energy Ireland</title>
   </head>
-  <body>
+  <body id="home">
     <header class="topHeader">
-      <!-- NAVIGATION -->
-      <div class="topHeader__logo">
-        <!-- NAVIGATION - Logo -->
-        <a href="index.html">
-          <img
-            src="dir/img/logo.png"
-            alt="Solaqua Logo - Nice font in Green Colour"
-            id="topHeader__logo--size"
-          />
-        </a>
-      </div>
-    </header>
+<!-- NAVIGATION -->
+<div class="topHeader__logo">
+  <!-- NAVIGATION - Logo -->
+  <a href="index.html">
+    <img
+    src="dir/img/logo.png"
+    alt="Solaqua Logo - Nice font in Green Colour"
+    id="topHeader__logo--size"
+    />
+  </a>
+</div>
+</header>
+  <!-- NAVIGATION - Logo -->
 
-    <nav class="top-right open">
-      <a class="disc l1">
+<nav class="top-right open">
+  <a href="#contacts" class="disc l1" >
         <div>Contacts</div>
       </a>
-      <a class="disc l2">
-        <div>About Us</div>
-      </a>
-      <a class="disc l3">
+      <a href="#projects" class="disc l2">
         <div>Projects</div>
       </a>
-      <a class="disc l4">
-        <div>Home</div>
-      </a>
-      <a class="disc l5 toggle">
-        Menu
-      </a>
+            <a href="#aboutus" class="disc l3">
+              <div>About Us</div>
+            </a>
+            <a href="#home" class="disc l4">
+              <div>Home</div>
+            </a>
+            <a class="disc l5 toggle">
+              Menu
+            </a>
+            
     </nav>
+<!-- END NAVIGATION -->
 
-    <!-- END NAVIGATION -->
+<!-- Header - Video -->
+    <main>
+<!-- button back to top place anywhere -->
+       <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button> 
+      <!-- <button id="back-to-top-btn">
+      
+        <img
+    src="dir/img/back-to-top.svg"
+    alt="icon back to top"
+    id="back-to-top-svg"
+    />
+      </button> -->
+     
+<!-- /button back to top -->
+      <section class="header">
+        <div class="header__background-overlay"></div>
+        <div class="header__mobImg"></div>
+        <video
+          class="header__video header__poster"
+          autoplay
+          loop
+          muted
+          preload="auto"
+          poster="dir/img/video/header-bg-thumbnail.jpg"
+          id="video_bg"
+        >
+          <source src="dir/img/video/header-bg.mp4" type="video/mp4" />
+          Your browser does not support the video.
+        </video>
 
-    <!-- Header - Video -->
+        <!-- Header video/image Title -->
+        <article class="topTitle">
+          <h1 class="topTitle__title">Solaqua</h1>
+          <h2 class="topTitle__heating">Heating Company</h2>
+          <hr class="topTitle__horizontal" />
+          <span class="topTitle__subtitle"> Drive for </span>
+          <p class="topTitle__ecoF">Eco friendly</p>
+          <span class="topTitle__enviroment">Enviroment</span>
+        </article>
 
-    <section class="header">
-      <div class="header__background-overlay"></div>
-      <div class="header__mobImg"></div>
-      <video
-        class="header__video header__poster"
-        autoplay
-        loop
-        muted
-        preload="auto"
-        poster="dir/img/video/header-bg-thumbnail.jpg"
-        id="video_bg"
-      >
-        <source src="dir/img/video/header-bg.mp4" type="video/mp4" />
-        Your browser does not support the video.
-      </video>
+        <img
+          src="dir/img/video/img-right.png"
+          class="topTitle__turbines"
+          alt="Solar Farm with wind Turbines"
+        />
+        <!-- animated mouse scroll down icon -->
+        <div class="scroll">
+          <a href="#scrolld">
+            <div class="scroll__mouse">
+              <div class="scroll__scroller"></div>
+            </div>
+          </a>
+        </div>
+      </section>
 
-      <!-- Header video/image Title -->
-      <article class="topTitle">
-        <h1 class="topTitle__title">SolaQua</h1>
-        <h2 class="topTitle__heating">Heating Company</h2>
-        <hr class="topTitle__horizontal" />
-        <span class="topTitle__subtitle"> Drive for </span>
-        <p class="topTitle__ecoF">Eco friendly</p>
-        <span class="topTitle__enviroment">Enviroment</span>
-      </article>
+      <!-- choose us cards -->
+      <section class="cards">
+        <div class="cards__title" id="aboutus">
+          <h4 id="scrolld">Reasons to Choose Us</h4>
+          <h2>What we are doing</h2>
+          <hr class="hrTwo" />
+        </div>
 
-      <img
-        src="dir/img/video/img-right.png"
-        class="topTitle__turbines"
-        alt="Solar Farm with wind Turbines"
-      />
-      <!-- animated mouse scroll down icon -->
-      <div class="scroll">
-        <div class="scroll__mouse">
-          <div class="scroll__scroller"></div>
+        <div class="cards__card1">
+          <img src="dir/img/section/card1.png" alt="Card 1" />
+          <h3>RECYCLING</h3>
+          <p>
+            Carbon emissions reductions truth, approaches enable medical
+            supplies malnutrition achieving developing pathway to a better life.
+          </p>
+        </div>
+
+        <div class="cards__card2">
+          <img src="dir/img/section/card2.PNG" alt="Card 2" class="gapimg" />
+          <h3>ECO SYSTEM</h3>
+          <p>
+            Carbon emissions reductions truth, approaches enable medical
+            supplies malnutrition achieving developing pathway to a better life.
+          </p>
+        </div>
+
+        <div class="cards__card3">
+          <img src="dir/img/section/card3.png" alt="Card 3" />
+          <h3>ECO SYSTEM</h3>
+          <p>
+            Carbon emissions reductions truth, approaches enable medical
+            supplies malnutrition achieving developing pathway to a better life.
+          </p>
+        </div>
+
+        <div class="cards__card4">
+          <img src="dir/img/section/card4.png" alt="Card 4" />
+          <h3>SAVING FORESTS</h3>
+
+          <p>
+            Carbon emissions reductions truth, approaches enable medical
+            supplies malnutrition achieving developing pathway to a better life.
+          </p>
+        </div>
+
+        <div class="cards__card5">
+          <img src="dir/img/section/card5.png" alt="Card 5" />
+          <h3>WATER REFINING</h3>
+          <p>
+            Carbon emissions reductions truth, approaches enable medical
+            supplies malnutrition achieving developing pathway to a better life.
+          </p>
+        </div>
+
+        <div class="cards__card6">
+          <img src="dir/img/section/card6.png" alt="Card 6" />
+          <h3>SAVING ANIMALS</h3>
+          <p>
+            Carbon emissions reductions truth, approaches enable medical
+            supplies malnutrition achieving developing pathway to a better life.
+          </p>
+        </div>
+      </section>
+
+<!-- ask us a question -->
+      <section class="askus">
+        <img
+          src="dir/img/ask/question.svg"
+          alt="icon ask us a question"
+          class="askus__icon"
+        />
+        <p class="askus__inner">Get Free Consultancy About Your Project</p>
+
+        <a href="#" class="btnw btn--white">Ask us a question</a>
+      </section>
+<!-- /ask us a question -->
+
+<!-- pricing plan packages -->
+      <section class="packages">
+        <div class="packages__title">
+          <h2 class="packages__heading2">Affordable Pricing Packages</h2>
+          <hr class="hrTwo" />
+        </div>
+        <h4 class="packages__heading4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Developing
+          pathway to a better life.
+        </h4>
+
+        <!-- 111 -->
+        <div class="packages__seventyFive">
+          <div class="packages__styling">
+            <h2><sup>&euro;</sup>75 <span>/ Month</span></h2>
+            <h3>Free For 60 Days</h3>
+            <img
+              src="dir/img/packages/pricing_icon.png"
+              alt="img"
+              class="packages__icon"
+            />
+            <h4>Battery Capacity 11 - 15 kWh</h4>
+            <p>Free Service</p>
+            <p>Ranted Battery</p>
+            <p>Free Installation</p>
+            <p>8 Hour Support</p>
+            <a href="#" class="btn btn--purple">Basic</a>
+          </div>
+        </div>
+
+        <!-- 222 -->
+        <div class="packages__nintyFive">
+          <div class="packages__styling">
+            <h2><sup>&euro;</sup>95 <span> / Month</span></h2>
+            <h3>Free For 60 Days</h3>
+            <img
+              src="dir/img/packages/pricing_icon.png"
+              alt="img"
+              class="packages__icon"
+            />
+            <h4>Battery Capacity 11 - 15 kWh</h4>
+            <p>Free Service</p>
+            <p>Ranted Battery</p>
+            <p>Free Installation</p>
+            <p>8 Hour Support</p>
+            <a href="#" class="btn btn--purple">Business</a>
+          </div>
+        </div>
+        <!-- 333 -->
+        <div class="packages__hundretTwentyFive">
+          <div class="packages__styling">
+            <h2><sup>&euro;</sup>125 <span>/ Month</span></h2>
+            <h3>Free For 60 Days</h3>
+            <img
+              src="dir/img/packages/pricing_icon.png"
+              alt="img"
+              class="packages__icon"
+            />
+            <h4>Battery Capacity 11 - 15 kWh</h4>
+            <p>Free Service</p>
+            <p>Ranted Battery</p>
+            <p>Free Installation</p>
+            <p>8 Hour Support</p>
+            <a href="#" class="btn btn--purple">Ultimate</a>
+          </div>
+        </div>
+        <!-- /333 -->
+      </section>
+<!-- /pricing plan packages -->
+
+<!-- gallery section our projects -->
+      <div class="title" id="projects">
+        <h2 class="heading2">Our Projects</h2>
+        <hr class="hrTwo" />
+      </div>
+
+      <section class="gallery">
+        
+      <!-- Emmet code for 14 images -   (figure.gallery__item.gallery__item--$>img.gallery__img[src="dir/img/projects/gal-$.jpg"][alt="Project image $"])*14 - Emmet code -->
+      <figure class="gallery__item gallery__item--1"><img src="dir/img/projects/img-1.jpg" alt="Project image 1" class="gallery__img"></figure>
+
+      <figure class="gallery__item gallery__item--2"><img src="dir/img/projects/img-2.jpg" alt="Project image 2" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--3"><img src="dir/img/projects/img-3.jpg" alt="Project image 3" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--4"><img src="dir/img/projects/img-4.jpg" alt="Project image 4" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--5"><img src="dir/img/projects/img-5.jpg" alt="Project image 5" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--6"><img src="dir/img/projects/img-6.jpg" alt="Project image 6" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--7"><img src="dir/img/projects/img-7.jpg" alt="Project image 7" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--8"><img src="dir/img/projects/img-8.jpg" alt="Project image 8" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--9"><img src="dir/img/projects/img-9.jpg" alt="Project image 9" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--10"><img src="dir/img/projects/img-10.jpg" alt="Project image 10" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--11"><img src="dir/img/projects/img-11.jpg" alt="Project image 11" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--12"><img src="dir/img/projects/img-12.jpg" alt="Project image 12" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--13"><img src="dir/img/projects/img-13.jpg" alt="Project image 13" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--14"><img src="dir/img/projects/img-14.jpg" alt="Project image 14" class="gallery__img"></figure>
+     
+
+      </section>
+<!-- /gallery section our projects -->
+
+<!-- contact us form -->
+  <section class="section-form" id="contacts">
+    <div class="form">
+        <h2 class="form__heading">Contact us</h2>
+
+        <div class="form__contact">
+          <form action="php/contact.php" method="POST" class="form">
+
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Full Name"
+                id="name"
+                required
+              />
+              <label for="name" class="form__label">Full name</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="email"
+                class="form__input"
+                placeholder="Email address"
+                id="email"
+                required
+              />
+              <label for="email" class="form__label">Email address</label>
+            </div>
+
+            <div class="form__group">
+              <textarea
+                rows="3"
+                class="form__input"
+                placeholder="Enter Message"
+                id="textarea"
+                required
+              ></textarea>
+              <label for="textarea" class="form__label"
+                >Enter Message...</label
+              >
+            </div>
+
+            <div class="form__group">
+              <button class="btn btn--purple">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+<!-- /contact us form -->
 
-    <section class="cards">
-      <div class="cards__title">
-        <h4>Reasons to Choose Us</h4>
-        <h2>What we are doing</h2>
-        <hr class="topTitle__horizontal" />
-      </div>
-
-      <div class="cards__card1">
-        <img src="dir/img/section/card1.png" alt="Card 1" />
-        <h3>RECYCLING</h3>
-        <p>
-          Carbon emissions reductions truth, approaches enable medical supplies
-          malnutrition achieving developing pathway to a better life.
-        </p>
-      </div>
-
-      <div class="cards__card2">
-        <img src="dir/img/section/card2.PNG" alt="Card 2" class="gapimg" />
-        <h3>ECO SYSTEM</h3>
-        <p>
-          Carbon emissions reductions truth, approaches enable medical supplies
-          malnutrition achieving developing pathway to a better life.
-        </p>
-      </div>
-
-      <div class="cards__card3">
-        <img src="dir/img/section/card3.png" alt="Card 3" />
-        <h3>ECO SYSTEM</h3>
-        <p>
-          Carbon emissions reductions truth, approaches enable medical supplies
-          malnutrition achieving developing pathway to a better life.
-        </p>
-      </div>
-      <!-- <div class="waterDrop"></div> -->
-      <div class="cards__card4">
-        <img src="dir/img/section/card4.png" alt="Card 4" />
-        <h3>SAVING FORESTS</h3>
-        <p>
-          Carbon emissions reductions truth, approaches enable medical supplies
-          malnutrition achieving developing pathway to a better life.
-        </p>
-      </div>
-
-      <div class="cards__card5">
-        <img src="dir/img/section/card5.png" alt="Card 5" />
-        <h3>WATER REFINING</h3>
-        <p>
-          Carbon emissions reductions truth, approaches enable medical supplies
-          malnutrition achieving developing pathway to a better life.
-        </p>
-      </div>
-
-      <div class="cards__card6">
-        <img src="dir/img/section/card6.png" alt="Card 6" />
-        <h3>SAVING ANIMALS</h3>
-        <p>
-          Carbon emissions reductions truth, approaches enable medical supplies
-          malnutrition achieving developing pathway to a better life.
-        </p>
-      </div>
-
-      <!-- <div class="leafDrop"></div>
-    </section> -->
-
+    </main>
     <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/34a51bdefe.js" crossorigin="anonymous"></script>
   </body>
 </html>
