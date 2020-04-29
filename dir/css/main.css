@@ -349,6 +349,7 @@ textarea {
   font-weight: 600;
   text-transform: capitalize;
   text-decoration: none;
+  padding: 0.7rem 6rem;
   display: inline-block;
   border-radius: 10rem;
   -webkit-transition: all 0.2s;
@@ -358,6 +359,7 @@ textarea {
   margin: auto;
   border: none;
   cursor: pointer;
+  z-index: 11111;
 }
 
 .btn:hover,
@@ -404,7 +406,7 @@ textarea {
 
 .btn--purple::after,
 .btnw--purple::after {
-  background-color: #d83371;
+  background-image: linear-gradient(50deg, #d83371, #7a2d9e);
 }
 
 .btn::after,
