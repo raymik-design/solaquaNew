@@ -349,7 +349,6 @@ textarea {
   font-weight: 600;
   text-transform: capitalize;
   text-decoration: none;
-  padding: 0.7rem 6rem;
   display: inline-block;
   border-radius: 10rem;
   -webkit-transition: all 0.2s;
@@ -1237,16 +1236,18 @@ nav.top-right {
 .cards {
   display: -ms-grid;
   display: grid;
-  grid-gap: 5rem;
-  margin: 0 10rem;
-      grid-template-areas: '. title title title .' '.  card1 card1  card1 .' '. card2 card2 card2 .' '. card3  card3 card3  .' '. card4 card4 card4 .' '. card5 card5 card5 .' '. card6 card6 card6 .';
+  grid-gap: 4rem;
   text-align: center;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: ' title title title ' ' card1 card1 card1 ' ' card2 card2 card2 ' ' card3 card3 card3 ' ' card4 card4 card4' ' card5 card5 card5 ' ' card6 card6 card6 ';
 }
 
 @media only screen and (min-width: 62.5em) {
   .cards {
     -ms-grid-columns: (1fr)[12];
         grid-template-columns: repeat(12, 1fr);
+    margin: 0 10rem;
         grid-template-areas: '. . . . title title title title  . . . .' 'card1 card1 card1 card1 card2 card2 card2 card2 card3 card3 card3 card3' 'card4 card4 card4 card4 card5 card5 card5 card5 card6 card6 card6 card6  ';
   }
 }
@@ -1260,42 +1261,42 @@ nav.top-right {
 
 .cards__card1 {
   -ms-grid-row: 2;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: card1;
 }
 
 .cards__card2 {
   -ms-grid-row: 3;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: card2;
 }
 
 .cards__card3 {
   -ms-grid-row: 4;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: card3;
 }
 
 .cards__card4 {
   -ms-grid-row: 5;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: card4;
 }
 
 .cards__card5 {
   -ms-grid-row: 6;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: card5;
 }
 
 .cards__card6 {
   -ms-grid-row: 7;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: card6;
 }
@@ -1336,7 +1337,7 @@ nav.top-right {
   font-family: 'Montserrat', sans-serif;
   /* content styling OPTIONAL*/
   text-align: center;
-  padding: 8vh;
+  padding: 4vh;
   background-size: cover;
   background-repeat: repeat;
   background-image: url(../img/ask/banner.jpg);
@@ -1344,7 +1345,7 @@ nav.top-right {
 
 @media only screen and (min-width: 62.5em) {
   .askus {
-    margin: 9rem 0;
+    margin: 8rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1360,7 +1361,7 @@ nav.top-right {
   font-size: 2.5rem;
   color: #fff;
   text-transform: capitalize;
-  padding: 1rem;
+  padding: 2rem 0;
 }
 
 @media only screen and (min-width: 62.5em) {
